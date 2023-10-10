@@ -1,7 +1,7 @@
 import sys
 from typing import List
 
-def desired_order(nums:List[int], order:str) -> str:
+def answer(nums:List[int], order:str) -> str:
     nums.sort()
     result = ['', '', '']
     for i in range(3):
@@ -10,6 +10,6 @@ def desired_order(nums:List[int], order:str) -> str:
     return ' '.join(result)
 
 if __name__ == "__main__":
-    nums = list(map(lambda x: int(x), sys.stdin.readline().split()))
+    nums = [int(x) for x in sys.stdin.readline().split()]
     order = sys.stdin.readline()
-    print(desired_order(nums, order))
+    print(answer(nums, order))
