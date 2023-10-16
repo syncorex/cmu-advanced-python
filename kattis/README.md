@@ -1,4 +1,10 @@
 # Assignment 2: Kattis Problems with Unittest
+
+To run tests, simply navigate into a problem folder and run the command:
+```
+make all
+```
+
 ### Problems solved:
 
 - [ABC](https://open.kattis.com/problems/abc) (**2.4**)
