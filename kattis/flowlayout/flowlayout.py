@@ -7,6 +7,7 @@ example = [(10, 5), (20, 12), (8, 13), (-1, -1)]
 m2 = 25
 example2 = [(10, 5), (20, 13), (3, 12), (-1, -1)]
 
+
 def window_dims(max_width: int, boards: List[Tuple[int, int]]) -> List[Tuple[int, int]]:
     row_w, row_h, window_w, window_h = (0, 0, 0, 0)
     for board in boards:
@@ -32,8 +33,6 @@ def window_dims(max_width: int, boards: List[Tuple[int, int]]) -> List[Tuple[int
 
     return (window_w, window_h) 
      
-# print(window_dims(m, example))
-# print(window_dims(m2, example2))
 
 if __name__ == "__main__":
     result = ""
@@ -42,12 +41,14 @@ if __name__ == "__main__":
     boards = []
 
     while(not done):
-        line = list(map(lambda x: int(x) ,sys.stdin.readline().split()))
+        line = list(map(lambda x: int(x), sys.stdin.readline().split()))
 
+        # End of problem input
         if len(line) == 1 and line[0] == 0:
             print(result)
             break
 
+        # Still inputtting boards
         elif(len(line) > 1):
             boards.append((line[0], line[1]))
             

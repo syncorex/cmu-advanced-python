@@ -1,6 +1,6 @@
 PROGRAM = python3
-MAIN = pizza2.py
-UNIT_TEST = test_unit_pizza2.py
+MAIN = flowlayout.py
+UNIT_TEST = test_unit_flowlayout.py
 
 all: check_types check_style test unittest clean
 
