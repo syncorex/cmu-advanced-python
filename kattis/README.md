@@ -1,7 +1,7 @@
 # Assignment 2: Kattis Problems with Unittest
 
 To run tests, simply navigate into a problem folder and run the command:
-```
+```bash
 make all
 ```
 
