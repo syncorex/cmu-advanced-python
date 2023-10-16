@@ -24,6 +24,18 @@
 | Self Grade | 100/100 |
 | Notes | completed requirements |
 
+### Assignment #1
+
+| Name | Value |
+| :--- | :--- |
+| Name | Kattis Problems with Unittests |
+| Description | Kattis solutions with makefile and tested with unittest / flake8 |
+| Due Date | 17-Oct-23 |
+| Status | Done |
+| Location | https://github.com/syncorex/AdvPy-ebarefoot/tree/main/kattis |
+| Self Grade | 100/100 |
+| Notes | [Readme](https://github.com/syncorex/AdvPy-ebarefoot/blob/main/kattis/README.md) |
+
 ## References
 
 1. [How to turn in assignments on GitHub](https://docs.google.com/document/d/16mixtVA-dePbWidBzI3JXNW4kFhRyT7XsJgL6GtGvGA/edit?usp=sharing)
