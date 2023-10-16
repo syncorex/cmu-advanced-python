@@ -5,6 +5,7 @@ all: check_types check_style test unittest clean
 
 test:
 	cat 1.in | $(PROGRAM) $(MAIN) | diff - 1.ans
+	cat 2.in | $(PROGRAM) $(MAIN) | diff - 2.ans
 
 check_types:
 	mypy --disallow-untyped-defs --strict aabc.py

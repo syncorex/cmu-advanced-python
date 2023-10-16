@@ -3,35 +3,30 @@
 import unittest
 from typing import List
 
-from brokenswords import calc_slats, calc_swords
+from pizza2 import cheese_area, pizza_area
 
-class TestBrokenSwords(unittest.TestCase):
-  
-    def test1_calc_slats(self) -> None:
-        slats = ["0000"]
-        self.assertEqual(calc_slats(slats), (2, 2))
+class TestPizza(unittest.TestCase):
 
-    def test2_calc_slats(self) -> None:
-        slats = ["1111", "1111"]
-        self.assertEqual(calc_slats(slats), (0, 0))
+    def test1_cheese_area(self) -> None:
+        self.assertEqual(cheese_area(1, 1), 0)
 
-    def test3_calc_slats(self) -> None:
-        slats = ["1100", "0100", "1000"]
-        self.assertEqual(calc_slats(slats), (2, 6))
-    
-    def test4_calc_swords(self) -> None:
-        v, h = (0, 0)
-        self.assertEqual(calc_swords(v, h), (0, 0, 0))
+    def test2_cheese_area(self) -> None:
+        self.assertEqual(cheese_area(5, 3), 12.566370614359172)
 
-    def test5_calc_swords(self) -> None:
-        v, h = (2, 3)
-        self.assertEqual(calc_swords(v, h), (1, 0, 1))
+    def test3_cheese_area(self) -> None:
+        with self.assertRaises(Exception):
+            cheese_area(3, 4)
 
-    def test6_calc_swords(self) -> None:
-        v, h = (11, 17)
-        self.assertEqual(calc_swords(v, h), (5, 1, 7))
+    def test4_pizza_area(self) -> None:
+        self.assertEqual(pizza_area(0), 0)
 
+    def test5_pizza_area(self) -> None:
+        self.assertEqual(pizza_area(3), 28.274333882308138)
+
+    def test6_pizza_area(self) -> None:
+        with self.assertRaises(Exception):
+            pizza_area(-3)
 
 if __name__ == "__main__":
-        
+
         unittest.main(verbosity=2)
