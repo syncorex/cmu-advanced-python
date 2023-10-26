@@ -1,7 +1,6 @@
 #! /usr/bin/env python3
 
 import unittest
-from typing import List
 
 from brokenswords import calc_slats, calc_swords
 
