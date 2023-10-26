@@ -2,7 +2,7 @@ PROGRAM = python3
 MAIN = cosmicpathoptimization.py
 UNIT_TEST = test_unit_cosmicpathoptimization.py
 
-all: check_types check_style fix_style test unittest clean
+all: check_types check_style fix_style test unittest kattis clean
 
 test:
 	cat data/1.in | $(PROGRAM) $(MAIN) | diff - data/1.ans
