@@ -36,6 +36,18 @@
 | Self Grade | 100/100 |
 | Notes | [Readme](https://github.com/syncorex/AdvPy-ebarefoot/blob/main/kattis/README.md) |
 
+### Assignment #2
+
+| Name | Value |
+| :--- | :--- |
+| Name | Git Best Practices and Container |
+| Description | Containerized Kattis solution, branches, issues, and tags |
+| Due Date | 31-Oct-23 |
+| Status | Done |
+| Location | https://github.com/syncorex/AdvPy-ebarefoot/tree/main/kattis/cosmicpathoptimization |
+| Self Grade | 100/100 |
+| Notes | [Test screenshot](https://github.com/syncorex/AdvPy-ebarefoot/blob/main/kattis/cosmicpathoptimization/test_cosmicpathoptimization.png) |
+
 ## References
 
 1. [How to turn in assignments on GitHub](https://docs.google.com/document/d/16mixtVA-dePbWidBzI3JXNW4kFhRyT7XsJgL6GtGvGA/edit?usp=sharing)
