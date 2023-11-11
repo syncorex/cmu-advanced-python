@@ -48,6 +48,18 @@
 | Self Grade | 100/100 |
 | Notes | [Test screenshot](https://github.com/syncorex/AdvPy-ebarefoot/blob/main/kattis/cosmicpathoptimization/test_cosmicpathoptimization.png) |
 
+# Final Project
+
+| Name | Value |
+| :--- | :--- |
+| Name | Mongo, REST API |
+| Description | Web App using MongoDB and REST API |
+| Due Date | 5-Dec-23 |
+| Status | In Progress |
+| Location | https://github.com/syncorex/advpy-web-app |
+| Self Grade | |
+| Notes | |
+
 ## References
 
 1. [How to turn in assignments on GitHub](https://docs.google.com/document/d/16mixtVA-dePbWidBzI3JXNW4kFhRyT7XsJgL6GtGvGA/edit?usp=sharing)
