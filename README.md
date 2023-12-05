@@ -57,8 +57,8 @@
 | Due Date | 5-Dec-23 |
 | Status | In Progress |
 | Location | https://github.com/syncorex/advpy-web-app |
-| Self Grade | |
-| Notes | |
+| Self Grade | 100/100 |
+| Notes | [README with self-grade](https://github.com/syncorex/advpy-web-app#readme) |
 
 ## References
 
